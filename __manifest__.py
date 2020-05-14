@@ -10,16 +10,12 @@
     """,
 
     'author': "Григорий Вахрушев",
-    'website': "https://github.com/GeVhoo",
+    'website': "https://github.com/GeVhoo/odoo-module",
 
     'category': 'Uncategorized',
-    'version': '0.1',
+    'version': '0.2',
  
-    'depends': ['base'],
+    'depends': ['crm'],
 
-    'data': [
-        # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
-    ],
+    'data': [],
 }
